@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #34495E;
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #34495E;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.row{
+    float: left;
+    width: 40%;
+    margin-left: 100px;
+}
+section{
+    height: 550px;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*-------------------------  start header -------------------------*/
+ .menu-list{
+    float: right;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+.menu-list li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu-list li a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+} 
+
+/*-------------------------  start top banner -------------------------*/
+.top-banner img{
+    width: 80%;
+}
+.top-banner  .top-h{
+    margin-top: 150px;
+}
+.h-sec{
+    color: #F78A6A;
+}
+.top-banner p{
+    margin: 30px 0;
+}
+.btn-hero{
+    display: inline-block;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-radius: 5px;
+    padding: 15px 50px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-------------------------  start bottom banner -------------------------*/
+.bottom-banner img{
+    width: 80%;
+    margin-top: -100px;
+}
+.bottom-banner h2{
+    margin-top: 30px;
+}
+.bottom-banner p{
+    font-size: 15px;
+    line-height: 25px;
+    margin: 30px 0;
+} 
+.fa-download{
+     margin-right: 10px;
+}
+
+
+
+/*-------------------------  start services section -------------------------*/
+.services-section{
+    padding-top: 50px;
+    height: 450px;
+}
+.services-section h2{
+   margin-bottom: 10px; 
+   padding-top: 100px;
+}
+.services-section p{
+    margin-bottom: 20px;
+}
+.services-section .btn-hero{
+    float: right;
+}
+.front-back img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-left: 0px;
+    opacity: 0.5;
+}
+.front-end{
+    margin-bottom: 20px;
+}
+.front-back h3{
+    padding-top: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.front-back p{
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+/*-------------------------  start pricing section -------------------------*/
+.pricing-section{
+    background: #dedbdb;
+    height: 650px;
+}
+.pricing-section h2{
+    text-align: center;
+    padding-top: 70px;
+}
+.box-style-p{
+    width: 900px;
+    margin: 0 auto;
+}
+.price-box{
+    width: 250px;
+    height: 385px;
+    float: left;
+    margin-left: 30px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.price-box h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #383838;
+}
+.price-box ul li{
+    list-style-type: none;
+    padding: 15px;
+    border-bottom: 1px solid #DFDEE2;
+    font-size: 15px;
+    color:rgb(177, 175, 175) ;
+}
+.price-box .p-t{
+    font-size: 17px;
+    font-weight: 500;
+    color: #111;
+}
+.price-box .d-t{
+    font-size: 25px;
+    color: #34495E;
+}
+.price-box .btn-hero{
+    margin-top: 30px;
+}
+/*-------------------------  start working section -------------------------*/
+.working-section{
+    background: #F7F7F7;
+    height: 650px;
+}
+.working-section h2{
+    text-align: center;
+    padding-top: 100px;
+}
+.working-section img{
+    width: 340px;
+    height: 200px;
+}
+.work-row{
+    margin-left: 100px;
+}
+.box{
+    float: left;
+    width: 340px;
+    height: 300px;
+    background:#fff;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 70px;
+    box-shadow: 10px 15px 20px#DADADA;
+}
+.working-section h3{
+    font-size: 22px;
+    padding: 15px 5px;
+
+}
+.working-section p{
+    padding: 0px 5px;
+}
+
+
+/*-------------------------  start let chat section -------------------------*/
+.let-section{
+    height: 300px;
+}
+
+.let-section img{
+    width: 850px;
+    height: 200px;
+    
+}
+.let-img{
+    width: 850px;
+    position: relative;
+    margin: 100px auto;
+}
+.h-l{
+   position: absolute;
+   top: 80px;
+   left: 60px;
+   font-size: 50px; 
+   color: #fff;
+   letter-spacing: 2px;
+}
+.btn{
+    display: inline-block;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+}
+
+
+/*-------------------------  start footer section -------------------------*/
+.footer{
+    text-align: center;
+    height: 200px
+}
+.footer h2{
+    font-size: 22px;
+}
+.footer a{
+    font-size: 40px;
+    font-weight: 700;
+    color: #383838;
+    text-decoration: none;
+    line-height: 70px;
+}
+.social-link img{
+    width: 40px;
+    margin: 0 10px;
+}
